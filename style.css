@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.main-container{
+	width: 850px;
+	height: 900px;
+	border: 1px solid black;
+	margin: 0  auto;
+	display: flex;
+	position: relative;
+	justify-content: space- around ;
+}
+.box1{
+	width: 360px ;
+	height: 210px;
+	margin-left: 40px;
+	margin-top: 35px;
+	background-image: url(img/img1.jpg);
+	position: relative;
+	padding: 5px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+.text{
+	color: white ;
+	flex-direction: row ;
+	font-size: 13px;
+}
+.box1 span{
+	width: 70px;
+	height: 10px;
+	font-size: 10px;
+	padding: 3px;
+	text-align: center;
+	background-color: orange;
+	border: 1px solid orange;
+    top: 150px;
+    left: 10px;
+	position: absolute;
+	border-radius: 3px;
+}
+.box1 p{
+	font-weight:bold;
+	font-size: 13px;
+	align-self: flex-end;
+	position: absolute;
+	top: 160px;
+    left: 10px;
+}
+.box2{
+	width: 360px ;
+	height: 210px;
+	margin-left: 434px;
+	margin-top: 35px;
+	background-image: url(img/img2.jpg);
+	position: absolute;
+	padding: 5px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+.box2 span{
+	width: 70px;
+	height: 10px;
+	font-size: 10px;
+	padding: 3px;
+	text-align: center;
+	background-color: purple;
+	border: 1px solid purple;
+    top: 150px;
+    left: 10px;
+	position: absolute;
+	border-radius: 3px;
+}
+.box2 p{
+	font-weight:bold;
+	font-size: 13px;
+	position: absolute;
+	top: 160px;
+    left: 10px;
+}
+
+.block-container{
+	width: 760px;
+	height: 600px;
+	/*border: 2px solid orange;*/
+	position: absolute;
+	margin-top: 260px;
+	margin-left: 40px;
+	font-family: 'Roboto', sans-serif;
+	justify-content: space-around ;
+
+}
+.block1{
+	position: absolute;
+	width: 240px ;
+	height: 100px;
+}
+.block1 img{
+	width: 240px;
+	margin-top: -20px;
+}
+.block1 span{
+	width: 55px;
+	height: 8px;
+	font-size: 8px;
+	padding: 3px;
+	text-align: center;
+	background-color: green;
+	border: 1px solid green;
+    margin-top: 165px;
+	margin-left: -240px;
+	border-radius: 3px;
+	position: absolute;
+	color: white;
+}
+.block1 p{
+	font-weight: bold;
+	font-size: 13px;
+}
+.block2{
+	position: relative;
+	width: 240px ;
+	height: 100px;
+	margin: 0 auto;
+}
+.block2 img{
+	width: 240px;
+	margin-top: -20px;
+	height: 189px;
+
+}
+.block2 span{
+	width: 50px;
+	height: 8px;
+	font-size: 8px;
+	padding: 3px;
+	text-align: center;
+	background-color: orange;
+	border: 1px solid orange;
+	margin-top: -8px;
+	display: flex;
+	flex-direction: row ;
+	border-radius: 3px;
+	position: absolute;
+	color: white;
+}
+.block2 p{
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.block3{
+	position: absolute;
+	width: 240px ;
+	height: 100px;
+	margin-top: -106px;
+	margin-left: 520px;
+
+}
+.block3 img{
+	width: 245px;
+	height: 193px;
+	margin-top: -20px;
+}
+.block3 span{
+	width: 33px;
+	height: 8px;
+	font-size: 8px;
+	padding: 3px;
+	text-align: center;
+	background-color: #c534ed;
+	border: 1px solid #c534ed;
+	margin-top: -7px;
+	display: flex;
+	flex-direction: row ;
+	border-radius: 3px;
+	position: absolute;
+	color: white;
+}
+.block3 p{
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.block4{
+	position: absolute;
+	width: 240px ;
+	height: 100px;
+	margin-top: 166px;
+}
+.block4 img{
+	width: 245px;
+	height: 150px;
+	margin-top: -20px;
+}
+.block4 span{
+	width: 33px;
+	height: 8px;
+	font-size: 8px;
+	padding: 3px;
+	text-align: center;
+	background-color: gray;
+	border: 1px solid gray;
+	margin-top: -1px;
+	display: flex;
+	flex-direction: row ;
+	border-radius: 3px;
+	position: absolute;
+	color: white;
+}
+.block4 p{
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 13px;
+
+}
+
+.block5{
+	position: absolute;
+	width: 240px ;
+	height: 100px;
+	margin-top: 146px;
+	margin-left: 260px;
+}
+.block5 img{
+	width: 245px;
+	height: 150px;
+	margin-top: -20px;
+	margin: 0 auto;
+}
+.block5 span{
+	width: 33px;
+	height: 8px;
+	font-size: 8px;
+	padding: 3px;
+	text-align: center;
+	background-color: orange;
+	border: 1px solid orange;
+	margin-top: -1px;
+	display: flex;
+	flex-direction: row ;
+	border-radius: 3px;
+	position: absolute;
+	color: white;
+}
+.block5 p{
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 13px;
+
+}
+
+
+
